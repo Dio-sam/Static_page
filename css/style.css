@@ -1,0 +1,171 @@
+
+@font-face{
+    font-family:"Poppins-Regular";
+    font-family:"Poppins-Medium";
+    src:url('../fonts/Poppins-Medium.ttf')format('truetype');
+    src:url('../fonts/Poppins-Regular.ttf')format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    font-family:"Poppins-Medium";
+    /**font-size:0.6em;**/
+    margin:0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+/*******         HEADER        ******/
+.bar-nav{
+    background-color: #0475ba ;
+    color:white;
+    padding:10px 0px 40px 10px;    
+}
+
+/*******         PROFILE/ PASSIONS/ EXPERIENCE PROFESSIONNELLES       ******/
+.profile, .sect-passions, .sect-professionnels{
+    padding:40px 0px 40px 10px ;
+ 
+}
+#photo{
+    width:200px;
+    height:200px;
+    border-radius:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/******* PRESENTATION/FORMATIONS******/
+.sect-presentation {
+    background-color: #0475ba ;
+    color:white;
+    padding:40px 0px  40px 0px;
+    
+  
+}
+.sect-formations{
+    background-color: #0475ba ;
+    color:white;
+    padding:40px 0px  40px 10px;  
+}
+
+
+#photo{
+    width:200px;
+    height:200px;
+    border-radius:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:3px 3px 6px   #AAA;
+}
+
+.titre1,h1{
+    text-align:center;
+}
+
+.titre2,.entete{
+    color:#0475ba;
+    text-align:center;
+}
+
+
+
+.date{
+    float:right;
+   
+
+}
+
+.titre-gras{
+    Font-Weight: Bold;
+}
+h3{
+
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.list,.list-foot{
+    list-style:none;
+    padding:0;
+}
+.footer{
+    background-color: #0475ba ;
+    
+    padding:40px 0px  20px 30px;
+   
+    
+}
+
+ a,i {
+    color:white;}
+
+#bar-chache{
+    display:none;
+  
+}
+/**   Medium devices (tablets, 768px and up) **/
+@media (min-width:768px){
+
+.sect-presentation,.sect-formations,.sect-passions, .sect-professionnels{
+    padding-left:200px;}
+
+.titre1, .titre2{
+    text-align:left; }
+
+.date{
+    padding-right:200px;}
+
+#bar-chache > li{
+    display:inline;
+   margin-left:10px;
+
+}
+#bar-chache{
+    
+    display:inline-block;
+    list-style:none;
+    margin-left:40px;
+    
+} 
+.liste-bar{
+    text-decoration:none;
+}
+
+h3{
+    display:inline-block;
+}
+
+.list-foot{
+    display:inline-block; 
+    width:200px;
+   height:100px;
+   margin-left:10px;
+   vertical-align: top;
+
+}
+#lien-soci{
+    margin-left:300px;
+}
+.boit-profil{
+    
+    display:inline-block;
+    width:290px;
+    height:260px;
+    margin-left:300px;
+    vertical-align: top;
+    padding-top:80px;
+}
+#photo{
+    display:inline-block;
+    width:260px;
+    height:260px;
+    margin-left:150px;
+    vertical-align: top;
+    
+}
+
+
+}
